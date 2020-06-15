@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    background-color: white;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+
+#logoLoja {
+    width: 100%;
+}
+#imagemLogo {
+    margin-bottom: 30px;
+}
+
+#tituloDestaques {
+    margin-bottom: 30px;
+}
+
+#rodape {
+    color: white;
+    padding-top: 50px;
+    background-color: darkgray;
+}
