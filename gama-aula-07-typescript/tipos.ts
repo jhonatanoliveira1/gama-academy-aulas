@@ -91,3 +91,18 @@ function tratarFuncionarios(funcionarios: Funcionario[]) {
     console.log('Nome do funcionário: ', funcionario.nome);
   }
 }
+
+//valores nulos
+let altura: number | null = 1.6;
+altura = null;
+
+type Contato = {
+  nome: string;
+  telefone1: string;
+  telefone2?: string; // campo opcional
+}
+
+const contato: Contato = {
+  nome: 'Jhonatan',
+  telefone1: '537593076',
+}
