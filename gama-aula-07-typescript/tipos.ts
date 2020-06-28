@@ -46,3 +46,16 @@ criar({
   proiedade: 1,
 })
 // criar('Jhonatan') // Dá erro
+
+// Never
+function loopInifito(): never {
+  while(true) { }
+}
+
+function erro(messagem: string): never {
+  throw new Error(messagem)
+}
+
+function falha() {
+  return erro('Algo falhou');
+}
