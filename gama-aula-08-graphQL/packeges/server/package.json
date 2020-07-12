@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "src/main.js", 
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r esm ."
@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "esm": "^3.2.25"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
