@@ -1,4 +1,4 @@
-import { ApolloLink } from 'apollo-link';
+import { ApolloLink, Observable } from 'apollo-link';
 import { createHttpLink } from 'apollo-link-http';
 import { setContext } from 'apollo-link-context';
 import { onError } from 'apollo-link-error';

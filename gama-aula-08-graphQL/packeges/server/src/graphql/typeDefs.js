@@ -11,7 +11,7 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    _root:String
+    _root: String
   }
 
   ${nodeTypeDefs}

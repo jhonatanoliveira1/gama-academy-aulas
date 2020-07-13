@@ -10,5 +10,5 @@ export default function Router() {
       <Route exact path={['', '/']} component={Home} />
       <Route exact path="/sign-in" component={SignIn} />
     </Switch>
-  )
+  );
 }

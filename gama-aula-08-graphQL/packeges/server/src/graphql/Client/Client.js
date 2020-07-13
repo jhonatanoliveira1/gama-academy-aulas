@@ -108,7 +108,7 @@ export const resolvers = {
               );
             return client[field] === value;
           }
-          return client[field] === value; 
+          return client[field] === value;
         });
       });
 
